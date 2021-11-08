@@ -1,0 +1,62 @@
+.calculator {
+  display: grid;
+  grid-template-rows: 1.5fr repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 20px;
+  width: 400px;
+  height: 600px;
+  color: rgb(15, 15, 15);
+  background: rgb(15, 15, 15);
+  margin: 20vh auto;
+
+
+
+  &__display {
+    grid-area: 1 / 1 / 2 / 5;
+    margin-bottom: 10px;
+    background: linear-gradient(to top, rgb(46, 46, 46), rgb(71, 71, 71) ) ;
+
+
+  }
+
+  &__input {
+    color: whitesmoke;    
+    display: inline-flex;    
+    background: none; 
+  }
+
+
+
+  &__clear {
+    grid-area: 2 / 1 / 3 / span 2;
+    background-color: rgb(4, 173, 156);
+  }
+
+  &__delete {
+    font-size: 24px;
+    background-color: rgb(253, 67, 67);
+  }
+
+  &__operator {
+    background-color: rgb(202, 133, 4);
+
+    &--divide {
+      grid-area: 2 / 4 / 3 / 5;
+    }
+    &--multiply {
+      grid-area: 3 / 4 / 4 / 5;
+    }
+    &--minus {
+      grid-area: 4 / 4 / 5 / 5;
+    }
+    &--plus{
+      grid-area: 5 / 4 / 6 / 5;
+    }
+    &--equals{
+      grid-area: 6 / 3 / 7 / span 2;
+      background-color: rgb(4, 173, 156);
+    }
+  }
+ 
+}
