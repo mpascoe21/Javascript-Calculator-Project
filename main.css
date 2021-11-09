@@ -47,6 +47,10 @@ button:hover {
   font-size: 24px;
   background-color: #fd4343;
 }
+.calculator__equals {
+  grid-area: 6/3/7/span 2;
+  background-color: #04ad9c;
+}
 .calculator__operator {
   background-color: #ca8504;
 }
@@ -61,8 +65,4 @@ button:hover {
 }
 .calculator__operator--plus {
   grid-area: 5/4/6/5;
-}
-.calculator__operator--equals {
-  grid-area: 6/3/7/span 2;
-  background-color: #04ad9c;
 }
