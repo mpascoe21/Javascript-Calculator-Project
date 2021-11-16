@@ -1,0 +1,57 @@
+@media screen and (min-width: 768px) {
+  * {
+    font-size: 48px;
+  }
+  
+  .calculator {    
+    margin: 10vh auto;
+    gap: 17px;
+    padding: 33px;
+    width: 500px;
+    height: 750px;
+    font-size: 48px;
+
+    &__delete {
+      font-size: 36px;
+    }
+  }
+}
+
+@media screen and (min-width: 992px) {
+  * {
+    font-size: 42px;
+  }
+   
+  .calculator {
+    margin: 5vh auto;
+    gap: 13px;
+    padding: 26px;
+    width: 400px;
+    height: 600px;
+    font-size: 42px;
+
+    &__delete {
+      font-size: 30px;
+    }
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  * {
+    font-size: 48px;
+  }
+  
+  .calculator {    
+    margin: 10vh auto;
+    gap: 17px;
+    padding: 33px;
+    width: 500px;
+    height: 750px;
+    font-size: 48px;
+
+    &__delete {
+      font-size: 36px;
+    }
+  }
+}
+

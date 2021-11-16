@@ -2,29 +2,39 @@
   display: grid;
   grid-template-rows: 1.5fr repeat(5, 1fr);
   grid-template-columns: repeat(4, 1fr);
+  margin: 10vh auto;
   gap: 10px;
   padding: 20px;
-  width: 400px;
-  height: 600px;
+  width: 300px;
+  height: 450px;
   color: rgb(15, 15, 15);
   background: rgb(15, 15, 15);
-  margin: 20vh auto;
-
+  
 
 
   &__display {
     grid-area: 1 / 1 / 2 / 5;
     margin-bottom: 10px;
     background: linear-gradient(to top, rgb(46, 46, 46), rgb(71, 71, 71) ) ;
-
-
+    color: whitesmoke;
+    padding: 20px;
+    //overflow-x: auto;
+    //width: 100%;
+    //white-space: nowrap;
+    overflow-wrap: break-word;
   }
 
-  &__input {
-    color: whitesmoke;    
-    display: inline-flex;    
-    background: none; 
-  }
+  // &__input1 {
+  //   color: red;    
+  //   //display: inline-flex;    
+  //   background: none; 
+  // }
+
+  // &__input2 {
+  //   color: green;    
+  //   //display: inline-flex;    
+  //   background: none; 
+  // }
 
 
 
