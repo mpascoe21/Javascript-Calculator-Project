@@ -36,7 +36,7 @@ button:hover {
   margin-bottom: 10px;
   background: linear-gradient(to top, #2e2e2e, #474747);
   color: whitesmoke;
-  padding: 20px;
+  padding: 10px;
   overflow-wrap: break-word;
 }
 .calculator__clear {

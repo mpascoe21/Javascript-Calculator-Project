@@ -105,8 +105,19 @@ equals.addEventListener("click", () => {
   } else if (oper === "/") {
     sum = parseFloat(input2) / parseFloat(input1);    
   }; 
+  
   console.log(sum);
-  display.innerHTML += sum;   
+  //display.innerHTML += sum.toFixed(5);   
+
+  let updateSum = parseFloat(sum.toFixed(7));
+  console.log(updateSum);
+  display.innerHTML += updateSum;
+
+  // const updateSum = sum.toFixed(5);
+  // console.log(updateSum);
+
+  // const finalSum = updateSum.toString();
+  // console.log(finalSum);
 });
 
 
