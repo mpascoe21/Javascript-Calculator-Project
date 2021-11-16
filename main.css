@@ -21,7 +21,7 @@ button:hover {
 
 .calculator {
   display: grid;
-  grid-template-rows: 1.5fr repeat(5, 1fr);
+  grid-template-rows: 2fr repeat(5, 1fr);
   grid-template-columns: repeat(4, 1fr);
   margin: 10vh auto;
   gap: 10px;

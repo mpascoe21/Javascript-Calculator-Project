@@ -10,14 +10,11 @@ const equals = document.querySelector(".calculator__equals");
 const clearAll = document.querySelector(".calculator__clear");
 const deleteLast = document.querySelector(".calculator__delete");
 
-
 let haveDot = false;
-//let haveOperator = true;
 let input1 = "";
 let input2 = "";
 let oper = "";
 let sum;
-
 
 const updateOutput = (value) => {
   display.innerText = value;
@@ -54,9 +51,7 @@ numbers.forEach((number) => {
     //display.innerHTML += input2;
     console.log(input1); 
      
-    display.innerHTML = input1;
-    
-    
+    display.innerHTML = input1;   
   });
 });
 
@@ -73,8 +68,7 @@ operators.forEach((operator) => {
     console.log(oper);   
     display.innerHTML = input2 + oper;
    // display.innerHTML += input1; - NOT WORKING
-    haveDot = false;
-    
+    haveDot = false;    
   })  
 })
 
